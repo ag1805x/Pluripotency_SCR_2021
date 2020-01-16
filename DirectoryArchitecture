@@ -1,0 +1,22 @@
+######################################
+#
+# The scripts written here assume the following directory architecture
+#
+######################################
+
+
+1. MasterDirectory
+   2. Project1
+      2.1. RawRead
+           2.1.1. Sample1
+           2.1.2. Sample2
+           2.1.3. Sample3
+      2.2. Trim
+           2.2.1. Sample1
+           2.2.2. Sample2
+           2.2.3. Sample3
+      2.3. Align
+           2.3.1. Sample1
+           2.3.2. Sample2
+           2.3.3. Sample3           
+           2.3.1. Picard
