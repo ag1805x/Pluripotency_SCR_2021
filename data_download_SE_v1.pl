@@ -27,7 +27,7 @@ mkdir $col[1];
 chdir "$cwd/$col[1]";
 
 
-$file = "ascp -QT -P33001 -k 1 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp\@$col[2] .";
+$file = "ascp -QT -l 50m -P33001 -k 1 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp\@$col[2] .";
 system($file);
 
 open (FH2, '>', 'cmd.txt');
